@@ -1,0 +1,50 @@
+body, h1{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(207, 207, 207);
+}
+.container{
+    margin: 0vw 15vw;
+    padding: 6vw 10vw;
+    background-color: rgb(247, 247, 247);
+}
+h1{
+    font-size: 26px;
+
+}
+header{
+    font-family: Calibri;
+    position: relative;
+    left: 50%;
+}
+main{
+    font-family: Calibri;
+    line-height: 35px;
+    text-align: justify;
+}
+h5{
+    text-emphasis-style: bold;
+    font-size: 1em;
+}
+.email{
+    font-size: 0.8em;
+}
+.personal-info > p{
+    line-height: 18px;
+}
+ul.pro-strength > li{
+    display: inline-table;
+    padding-right: 1.5cm;
+    margin-left: 20px;
+    text-align: justify;
+}
+ul.pro-strength > li:before{
+    content:' ';
+    display: list-item;
+    position: absolute;
+}
+ul{
+    list-style-type: dot;
+}
